@@ -1,9 +1,10 @@
 package main
 
 import (
-	"cursoGo/funciones"
+	"cursoGo/mapas"
 )
 
 func main() {
-	funciones.LlamarClosure()
+	mapas.MostrarMapas()
+
 }
