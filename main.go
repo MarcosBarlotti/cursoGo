@@ -1,9 +1,15 @@
 package main
 
 import (
-	"cursoGo/users"
+	e "cursoGo/ejer_interfaces"
+	"cursoGo/modelos"
 )
 
 func main() {
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
+
 }
