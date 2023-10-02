@@ -1,10 +1,9 @@
 package main
 
 import (
-	"cursoGo/mapas"
+	"cursoGo/users"
 )
 
 func main() {
-	mapas.MostrarMapas()
-
+	users.AltaUsuario()
 }

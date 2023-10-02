@@ -26,6 +26,6 @@ func MostrarMapas() {
 
 	delete(campeonato, "Real Madrid")
 
-	fmt.println(campeonato)
+	fmt.Println(campeonato)
 
 }
