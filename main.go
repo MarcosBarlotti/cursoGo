@@ -1,15 +1,9 @@
 package main
 
 import (
-	e "cursoGo/ejer_interfaces"
-	"cursoGo/modelos"
+	d "cursoGo/defer_panic"
 )
 
 func main() {
-	Pedro := new(modelos.Hombre)
-	e.HumanosRespirando(Pedro)
-
-	Maria := new(modelos.Mujer)
-	e.HumanosRespirando(Maria)
-
+	d.EjemploPanic()
 }
