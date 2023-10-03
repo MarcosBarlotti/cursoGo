@@ -1,9 +1,9 @@
 package main
 
 import (
-	d "cursoGo/defer_panic"
+	"cursoGo/middleware"
 )
 
 func main() {
-	d.EjemploPanic()
+	middleware.MiMiddleware()
 }
